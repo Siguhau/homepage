@@ -8,7 +8,7 @@ interface Link {
 interface CardProps {
   title: string;
   imageSrc: string;
-  content: string;
+  content: string[];
   links?: Link[];
 }
 
@@ -23,7 +23,9 @@ const Card: React.FC<CardProps> = ({ title, imageSrc, content, links }) => {
           <h2>{title}</h2>
         </div>
         <div className="card-content">
-          <p>{content}</p>
+          {content.map((paragrap, index) => (
+            <p key={"p"+index}>{paragrap}</p>
+          ))}
           {links && 
             <ul>
             {links.map((link, index) => (

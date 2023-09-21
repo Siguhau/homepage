@@ -1,0 +1,29 @@
+{
+    "aboutContent": {
+      "title": "Hei! Jeg heter Sigurd Hauan!",
+      "p1": "Jeg er en fjerdeårs student i informatikk ved NTNU, med spesialisering innen programvareutvikling. For øyeblikket jobber jeg hos MazeMap, der jeg hovedsakelig bruker Python og React for å fokusere på backend-oppgaver, spesielt innen kartproduksjon og administrativt grensesnitt.",
+      "p2": "Ta gjerne kontakt med meg på LinkedIn:"
+    },
+    "aboutMessage": "Lær mer om vårt selskap.",
+    "mazeMapContent": [
+      "Jeg jobber for øyeblikket som en programvareingeniørpraktikant hos Mazemap, du er hjertelig velkommen til å sjekke ut hva vi gjør! Jeg begynte hos MazeMap i 2022 som en sommerpraktikant og fortsatte i stillingen som deltidspraktikant. Den sommeren jobbet jeg sammen med en annen praktikant for å lage en selvstendig fullstack webapp for å hjelpe nye kunder med å legge til. Appen bestod av en backend skrevet i Java sammen med en React frontend.",
+      "I år har jeg jobbet tettere sammen med ett av ingeniørteamene og deres oppgaver i veikartet."
+    ],
+    "matchGeneratorContent": [
+      "Har du noen gang ønsket å lage en kampplan for en fotballturnering der alle spiller mot alle? Dette enkle SPA-et jeg lagde lar deg generere en kampplan for opptil 100 lag."
+    ],
+    "lydenAvByenContent": [
+      "I det klassiske NTNU-kurset \"EIT\" laget vi en webapp med et kart over støynivåene i sentrum av Trondheim. Det var også mulig å lytte på ulike steder der vi hadde registrert lydene i området.",
+      "Jeg jobbet hovedsakelig med å lage komponenter som spilte av disse lydene. Dessverre er kartet for øyeblikket ikke aktivt."
+    ],
+    "ffmpegContent": [
+      "I NTNU-kurset \"Kundeorientert prosjekt\" var jeg med i et team som undersøkte videokomprimering for en kunde. Vi brukte den allerede eksisterende programvaren FFmpeg innpakket i vårt eget Python-skript for å komprimere øyefølgingsvideoer."
+    ],
+    "pockballContent": [
+      "I NTNU-kurset \"Programvarearkitektur\" utviklet min gruppe et Android-spill kalt \"Pockball\", det var i hovedsak en 8-ball pool-klone som vi laget fra bunnen av ved hjelp av biblioteket Lib-GDX. Spillet hadde nettbasert flerspillermodus der man kunne spille mot en venn."
+    ],
+    "gitHubContent": [
+      "Ta en titt på GitHub-profilen min! Det meste av det jeg har presentert her, finner du i profilen min."
+    ]
+  }
+  

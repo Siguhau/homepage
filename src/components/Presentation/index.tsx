@@ -2,17 +2,18 @@ import Portrait from 'components/Portrait';
 import About from 'components/About';
 import './index.css'
 
+interface PresentationProps{
+  language: string,
+}
 
-function Presentation() {
+const Presentation: React.FC<PresentationProps> = ({ language }) => {
   return (
     <div className="container">
       <div className="left">
-        {/* Content for the left side */}
-        <Portrait src="" alt="Your Image" />
+        <Portrait src="" alt="Image of me" />
       </div>
       <div className="right">
-        {/* Content for the right side */}
-        <About />
+        <About language={language}/>
       </div>
     </div>
   );

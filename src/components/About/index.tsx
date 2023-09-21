@@ -1,13 +1,20 @@
-const About = () => {
+import Content from "components/Content";
+
+interface AboutProps{
+  language: string,
+}
+
+const About: React.FC<AboutProps> = (language) => {
+  const content = Content(language)
+  console.log(language)
+  console.log(content)
   return (
     <div style={{ marginTop: '75px', width: '100%'}}>
-      <h1>Hi! I'm Sigurd Hauan!</h1>
-      <p>I'm a final-year Computer Science student from NTNU specializing in software development.
-        Currently, I work at MazeMap, where I mainly use Python and React to focus on backend tasks, particularly on map production and the admin interface.
-      </p>
+      <h1>{content.aboutContent.title}</h1>
+      <p>{content.aboutContent.p1}</p>
 
       <p>
-        Feel free to contact me on LinkedIn: <a
+        {content.aboutContent.p2} <a
         style={{color: 'white'}} 
         href="https://www.linkedin.com/in/sigurd-hauan-482a34252/">Sigurd Hauan</a>
         
