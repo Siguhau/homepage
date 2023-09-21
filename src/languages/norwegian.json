@@ -1,29 +1,29 @@
 {
     "aboutContent": {
-      "title": "Hei! Jeg heter Sigurd Hauan!",
-      "p1": "Jeg er en fjerdeårs student i informatikk ved NTNU, med spesialisering innen programvareutvikling. For øyeblikket jobber jeg hos MazeMap, der jeg hovedsakelig bruker Python og React for å fokusere på backend-oppgaver, spesielt innen kartproduksjon og administrativt grensesnitt.",
+      "title": "Hei! Jeg er Sigurd Hauan!",
+      "p1": "Jeg er inne i mitt siste år på NTNU hvor jeg sommeren 2024 fullfører en mastergrad innen Datateknologi, med spesialisering innen programvaresystemer. Ved siden jobber jeg deltid hos MazeMap, der jobber jeg hovedsakelig med backend-oppgaver i Python og frontend-oppgaver i React som er relatert til kartproduksjonen.",
       "p2": "Ta gjerne kontakt med meg på LinkedIn:"
     },
-    "aboutMessage": "Lær mer om vårt selskap.",
     "mazeMapContent": [
-      "Jeg jobber for øyeblikket som en programvareingeniørpraktikant hos Mazemap, du er hjertelig velkommen til å sjekke ut hva vi gjør! Jeg begynte hos MazeMap i 2022 som en sommerpraktikant og fortsatte i stillingen som deltidspraktikant. Den sommeren jobbet jeg sammen med en annen praktikant for å lage en selvstendig fullstack webapp for å hjelpe nye kunder med å legge til. Appen bestod av en backend skrevet i Java sammen med en React frontend.",
-      "I år har jeg jobbet tettere sammen med ett av ingeniørteamene og deres oppgaver i veikartet."
+      "Jeg jobber for tiden som Software Engineer Intern hos MazeMap. Du er hjertelig velkommen til å sjekke ut hva vi driver med.",
+      "Jeg begynte hos MazeMap sommeren 2022 hvor jeg, sammen med en annen Intern laget en fullstack webapp som MazeMap kunne bruke til å enklere sette opp nye kunder. Den ble bygget med en backend i Java og frontend i React.",
+      "Jeg fortsatte på deltid det året med samme prosjekt, men etter nyttår begynte jeg med oppgaver fra teamets roadmap. Dette fortsatte jeg med i sommer på fulltid. Blant annet jobbet jeg en del med 3D modeller som kan plasseres inn i kartene, og verktøy for å jobbe med disse. Videre har jeg igjen fortsatt på deltid."
     ],
     "matchGeneratorContent": [
-      "Har du noen gang ønsket å lage en kampplan for en fotballturnering der alle spiller mot alle? Dette enkle SPA-et jeg lagde lar deg generere en kampplan for opptil 100 lag."
+      "Har du noen gang ønsket å lage en kampplan for en fotballturnering der alle spiller mot alle minst en gang? Denne enkle nettsiden jeg lagde lar deg generere en kampplan for opptil 100 lag."
     ],
     "lydenAvByenContent": [
-      "I det klassiske NTNU-kurset \"EIT\" laget vi en webapp med et kart over støynivåene i sentrum av Trondheim. Det var også mulig å lytte på ulike steder der vi hadde registrert lydene i området.",
-      "Jeg jobbet hovedsakelig med å lage komponenter som spilte av disse lydene. Dessverre er kartet for øyeblikket ikke aktivt."
+      "Da jeg hadde \"EIT\" laget jeg, sammen med en annen denne nettsiden med et kart over støynivåene i Trondheim sentrum. Man kunne også lytte på ulike steder der vi hadde spilt inn lydene i området.",
+      "Det var med selve avspillingen av lyd jeg jobbet mest med. Dessverre er ikke kartet for tiden oppe å kjører."
     ],
     "ffmpegContent": [
-      "I NTNU-kurset \"Kundeorientert prosjekt\" var jeg med i et team som undersøkte videokomprimering for en kunde. Vi brukte den allerede eksisterende programvaren FFmpeg innpakket i vårt eget Python-skript for å komprimere øyefølgingsvideoer."
+      "Da jeg hadde faget \"Kundestyrt prosjekt\" jobbet gruppen min med komprimering av høyhastighetsfilm av øyer. Dette var i samarbeid med firmaet Bulbitech. Gruppen tok i bruk programvaren FFmpeg, innpakket i vårt eget Python-skript for å komprimere videoene mens de ble tatt opp. Firmaet var spesielt fornøyd med den høye kompresjonsraten, kvaliteten på videoen og at vi klarte å gjøre det like fort som videoen ble tatt opp."
     ],
     "pockballContent": [
-      "I NTNU-kurset \"Programvarearkitektur\" utviklet min gruppe et Android-spill kalt \"Pockball\", det var i hovedsak en 8-ball pool-klone som vi laget fra bunnen av ved hjelp av biblioteket Lib-GDX. Spillet hadde nettbasert flerspillermodus der man kunne spille mot en venn."
+      "Da jeg hadde faget \"Programvarearkitektur\" utviklet min gruppe et Android-spill kalt \"Pockball\", det var i hovedsak en 8-ball pool-klone som vi laget fra bunnen av ved hjelp av biblioteket Lib-GDX. Spillet hadde nettbasert flerspillermodus der man kunne spille billiard mot en venn. Denne versjonen av billiard hadde også med seg litt artige \"Powerups\"."
     ],
     "gitHubContent": [
-      "Ta en titt på GitHub-profilen min! Det meste av det jeg har presentert her, finner du i profilen min."
+      "Ta gjerne en titt på GitHub-profilen min! Det meste av det jeg har presentert her har jeg tilgjengelig der."
     ]
   }
   
