@@ -19,7 +19,15 @@ const Work: React.FC<WorkProps> = (language) => {
             links: [
                 {text: 'MazeMap', url: 'https://use.mazemap.com/'},
                 {text: 'About us', url: 'https://www.mazemap.com/about-us/about-us'},
-
+                
+            ]
+        },
+        {
+            title: 'My GitHub',
+            imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg',
+            content: content.gitHubContent,
+            links: [
+                {text: 'github.com/siguhau', url: 'https://github.com/siguhau'}
             ]
         },
         {
@@ -32,12 +40,12 @@ const Work: React.FC<WorkProps> = (language) => {
             ],
         },
         {
-            title: 'Lyden Av Byen',
-            imageSrc: lab,
-            content: content.lydenAvByenContent,
+            title: 'Pockball',
+            imageSrc: pockball,
+            content: content.pockballContent,
             links: [
-                {text: 'GitHub', url: 'https://github.com/KristofferSkare/TTT4850LydenAvByen'}
-            ],
+                {text: 'GitHub', url: 'https://github.com/TormodNy/pockball'}
+            ]
         },
         {
             title: 'FFmpeg video compression',
@@ -48,21 +56,13 @@ const Work: React.FC<WorkProps> = (language) => {
             ],
         },
         {
-            title: 'Pockball',
-            imageSrc: pockball,
-            content: content.pockballContent,
+        title: 'Lyden Av Byen',
+            imageSrc: lab,
+            content: content.lydenAvByenContent,
             links: [
-                {text: 'GitHub', url: 'https://github.com/TormodNy/pockball'}
-            ]
+                {text: 'GitHub', url: 'https://github.com/KristofferSkare/TTT4850LydenAvByen'}
+            ],
         },
-        {
-            title: 'My GitHub',
-            imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg',
-            content: content.gitHubContent,
-            links: [
-                {text: 'My Profile', url: 'https://github.com/siguhau'}
-            ]
-        }
     ];
 
     return (
