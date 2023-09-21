@@ -1,5 +1,4 @@
-//import pb from './pb.jpeg'
-const pb = require('./pb.png')
+const pb = require('img/pb.png')
 interface PortraitProps {
   src: string;
   alt: string;
