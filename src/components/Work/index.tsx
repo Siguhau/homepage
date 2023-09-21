@@ -27,7 +27,7 @@ const Work: React.FC<WorkProps> = (language) => {
             imageSrc: matchmaker,
             content: content.matchGeneratorContent,
             links: [
-                {text: 'https://match.siguhau.no/', url: 'https://match.siguhau.no/'},
+                {text: 'match.siguhau.no/', url: 'https://match.siguhau.no/'},
                 {text: 'GitHub', url: 'https://github.com/Siguhau/matchmaker'}
             ],
         },

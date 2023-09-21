@@ -9,7 +9,7 @@ const About: React.FC<AboutProps> = (language) => {
   console.log(language)
   console.log(content)
   return (
-    <div style={{ marginTop: '75px', width: '100%'}}>
+    <div style={{ marginTop: '10%', width: '100%'}}>
       <h1>{content.aboutContent.title}</h1>
       <p>{content.aboutContent.p1}</p>
 

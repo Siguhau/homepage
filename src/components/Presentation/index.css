@@ -1,17 +1,16 @@
 .container {
-  display: flex;
-  flex: 1 2;
-  flex-wrap: wrap;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 50% 50%;
   justify-content: center;
-  gap: 10%;
-  row-gap: 10%;
   background-color: #008080;
 }
 
+
 .left {
-  background-color: #008080;
   width: 400px;
   height: 400px;
+  padding-left: calc(20%);
 }
 
 .right {
@@ -20,7 +19,33 @@
   position: relative;
   height: auto;
   width: auto;
-  max-width: 700px;
   word-wrap: normal;
   padding: 10px;
 }
+
+.about-content {
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: 700px;
+}
+
+
+  @media (max-width: 1100px) {
+    .container {
+      grid-template-columns: 100%; /* Make the grid one column for smaller screens */
+      height: auto;
+    }
+    .left {
+      max-width: 400px;
+      padding-left: calc(50% - 250px);
+      align-items: center;
+      overflow: hidden;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .left {
+      max-width: 350px;
+    }
+  }

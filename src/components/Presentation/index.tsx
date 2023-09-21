@@ -13,7 +13,9 @@ const Presentation: React.FC<PresentationProps> = ({ language }) => {
         <Portrait src="" alt="Image of me" />
       </div>
       <div className="right">
+        <div className="about-content">
         <About language={language}/>
+        </div>
       </div>
     </div>
   );
