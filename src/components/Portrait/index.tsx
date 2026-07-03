@@ -1,10 +1,10 @@
-const pb = require('img/pb.png')
+import pb from '../../img/pb.png'
 interface PortraitProps {
   src: string;
   alt: string;
 }
 
-const Portrait: React.FC<PortraitProps> = ({ src, alt }) => {
+const Portrait: React.FC<PortraitProps> = ({ alt }) => {
   return (
     <div style={{
       width: '100%',

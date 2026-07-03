@@ -1,9 +1,9 @@
-import Card from 'components/Card'
+import Card from '../Card'
 import './index.css'
-import Content from 'components/Content';
-const matchmaker = require('img/matchmaker.png');
-const lab = require('img/lab.jpg');
-const pockball = require('img/pockball.png')
+import Content from '../Content';
+import matchmaker from '../../img/matchmaker.png'
+import lab from '../../img/lab.jpg'
+import pockball from '../../img/pockball.png'
 
 interface WorkProps{
     language: string,

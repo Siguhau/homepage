@@ -1,7 +1,7 @@
-const norwegian = require('languages/norwegian.json')
-const english = require('languages/english.json')
+import norwegian from '../../languages/norwegian.json'
+import english from '../../languages/english.json'
 
-const Content = ({ language }) => {
+const Content = ({ language }: { language: string }) => {
   const content = language === 'norwegian' ? norwegian : english;
 
   return (content);  
