@@ -1,4 +1,4 @@
-import Content from "components/Content";
+import Content from '../Content';
 
 interface AboutProps{
   language: string,
@@ -6,8 +6,6 @@ interface AboutProps{
 
 const About: React.FC<AboutProps> = (language) => {
   const content = Content(language)
-  console.log(language)
-  console.log(content)
   return (
     <div style={{ marginTop: '10%', width: '100%'}}>
       <h1>{content.aboutContent.title}</h1>

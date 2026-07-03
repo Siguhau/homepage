@@ -1,5 +1,5 @@
-import Portrait from 'components/Portrait';
-import About from 'components/About';
+import Portrait from '../Portrait';
+import About from '../About';
 import './index.css'
 
 interface PresentationProps{

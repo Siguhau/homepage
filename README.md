@@ -4,6 +4,13 @@ This project is currently live at my [Homepage](https://siguhau.no).
 
 You are free to use this as a template, but i would like a add a reference to this repo.
 
-## Create React App
+## Development
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). If you want any info on how to run it, please check out the documentation.
+Install dependencies and start the Vite development server:
+
+```sh
+npm ci
+npm run dev
+```
+
+Create a production build with `npm run build`.
